@@ -2240,13 +2240,67 @@ input, select, textarea {
 				width: 1em;
 			}
 
+/* Details */
+
+	details.details-icons {
+        margin: 2rem 0;
+}
+
+summary {
+        outline: none
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep .8s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-bottom: -20px}
+  100%  {opacity: 1; margin-bottom: 0px}
+}
+
+/* Details Icons */
+
+	ul.details-icons {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 1rem 0;
+		padding-left: 0;
+	}
+
+ul.details-icons li {
+			margin: 0rem 0 0 0;
+			padding: 0.5rem 0 0 2.5rem;
+			position: relative;
+			
+		}
+
+ul.details-icons li:before {
+				color: #000000;
+				display: block;
+				height: 3.25rem;
+				left: 0;
+				line-height: 3.25rem;
+				position: absolute;
+				text-align: center;
+				top: 0;
+				width: 3.25rem;
+			}
 /* Feature Icons */
 
 	ul.feature-icons {
 		display: flex;
 		flex-wrap: wrap;
 		list-style: none;
-		margin: 3rem 0;
+		margin: 0 0 2rem 0;
 		padding-left: 0;
 	}
 
@@ -2255,10 +2309,10 @@ input, select, textarea {
 		}
 
 		ul.feature-icons li {
-			margin: 0rem 0 0 0;
+			margin: 0.5rem 0 0 0;
 			padding: 0.5rem 0 0 3.5rem;
 			position: relative;
-			width: 25%;
+			width: 50%;
 		}
 
 			ul.feature-icons li:before {
