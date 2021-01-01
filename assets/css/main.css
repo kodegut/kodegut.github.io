@@ -2300,7 +2300,7 @@ ul.details-icons li:before {
 		display: flex;
 		flex-wrap: wrap;
 		list-style: none;
-		margin: 0 0 2rem 0;
+		margin: 1rem 0 2.5rem 0;
 		padding-left: 0;
 	}
 
@@ -2309,10 +2309,10 @@ ul.details-icons li:before {
 		}
 
 		ul.feature-icons li {
-			margin: 0.5rem 0 0 0;
+			margin: 0rem 0 0 0;
 			padding: 0.5rem 0 0 3.5rem;
 			position: relative;
-			width: 50%;
+			width: 25%;
 		}
 
 			ul.feature-icons li:before {
