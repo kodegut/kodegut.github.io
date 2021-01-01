@@ -2241,7 +2241,9 @@ input, select, textarea {
 			}
 
 /* Feature Icons */
-
+details {
+    background-color: yellow;
+}
 	ul.feature-icons {
 		display: flex;
 		flex-wrap: wrap;
@@ -2255,10 +2257,10 @@ input, select, textarea {
 		}
 
 		ul.feature-icons li {
-			margin: 0rem 0 0 0;
-			padding: 0.5rem 0 0 3.5rem;
+			margin: 2.5rem 0 0 0;
+			padding: 0.5rem 0 0 4.5rem;
 			position: relative;
-			width: 25%;
+			width: 50%;
 		}
 
 			ul.feature-icons li:before {
@@ -2277,6 +2279,7 @@ input, select, textarea {
 				top: 0;
 				width: 3.25rem;
 			}
+
 
 			ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 				margin-top: 0;
