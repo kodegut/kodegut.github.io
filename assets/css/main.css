@@ -2304,9 +2304,9 @@ ul.details-icons li:before {
 		padding-left: 0;
 	}
 
-		ul.feature-icons:first-child {
+		/*ul.feature-icons:first-child {
 			margin-top: 0;
-		}
+		}*/
 
 		ul.feature-icons li {
 			margin: 0.5rem 0 0 0;
