@@ -2241,9 +2241,7 @@ input, select, textarea {
 			}
 
 /* Feature Icons */
-details {
-    background-color: yellow;
-}
+
 	ul.feature-icons {
 		display: flex;
 		flex-wrap: wrap;
