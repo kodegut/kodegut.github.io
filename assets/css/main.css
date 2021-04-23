@@ -299,7 +299,7 @@ input, select, textarea {
 	overflow: hidden;
 	width: 100%;
 	padding-top: 58.64%; /* 217/370 images aspect ratio */
-	margin: 0 0 1em 0;
+	margin: 0 0 1.5em 0;
 	
   }
 
