@@ -3,6 +3,6 @@ kodegut
 
 This is the repo for my portfolio page.
 
-Template is 'Strata' by https://html5up.net
+Template is 'Spectral' by https://html5up.net
 
 Great work!
